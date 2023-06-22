@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+    height: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(24 24 27);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(39 39 42);
+  }
+  
+body {
+    background-color: rgb(9 9 11);
+}
+.tweet {
+    margin-left: 16rem;
+}
+.tweets {
+    margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 900px) {
+    .tweet {
+        margin-left: 0;
+        margin-top: -15px;
+    }
+}
